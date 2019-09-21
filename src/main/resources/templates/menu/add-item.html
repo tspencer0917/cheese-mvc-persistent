@@ -7,7 +7,7 @@
 
         <nav th:replace="fragments :: navigation"></nav>
 
-        <form method="post" style="max-width:600px;" th:object="${form}">
+        <form method="post" th:action="@{/menu/add-item}" style="max-width:600px;" th:object="${form}">
             <div class="form-group">
                 <label for="cheeses">Cheeses</label>
                 <select id="cheeses">
