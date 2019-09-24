@@ -73,7 +73,7 @@ public class MenuController {
         return "menu/add-item";
     }
 
-    @RequestMapping(value = "/add-item/", method = RequestMethod.POST)
+    @RequestMapping(value = "/add-item", method = RequestMethod.POST)
     public String addItem(@ModelAttribute @Valid AddMenuItemForm addMenuItemForm,
                       Errors errors,
                       Model model,
