@@ -14,7 +14,7 @@ public class AddMenuItemForm {
     @NotNull
     private int menuId;
 
-    @NotNull
+    @NotNull(message = "No cheese selected")
     private int cheeseId;
 
 
